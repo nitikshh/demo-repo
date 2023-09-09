@@ -1,10 +1,83 @@
-Certainly! Here's an example of a form with an advanced design using HTML and CSS:
-HTML code: html <!DOCTYPE html> <html> <head> <link rel="stylesheet" type="text/css" href="styles.css"> </head> <body> <div class="container"> <h2>Advanced Form</h2> <form> <div class="form-group"> <label for="name">Name:</label> <input type="text" id="name" name="name" required> </div> <div class="form-group"> <label for="email">Email:</label> <input type="email" id="email" name="email" required> </div> <div class="form-group"> <label for="message">Message:</label> <textarea id="message" name="message" required></textarea> </div> <button type="submit">Submit</button> </form> </div> </body> </html>
-CSS code (styles.css): ```css .container { max-width: 400px; margin: 0 auto; padding: 20px; background-color: #f2f2f2; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
-h2 { text-align: center; margin-bottom: 20px; }
-.form-group { margin-bottom: 20px; }
-label { display: block; margin-bottom: 5px; font-weight: bold; }
-input[type="text"], input[type="email"], textarea { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc; }
-button[type="submit"] { width: 100%; padding: 10px; border-radius: 6px; background-color: #4caf50; color: #fff; font-size: 16px; border: none; cursor: pointer; transition: background-color 0.3s ease; }
-button[type="submit"]:hover { background-color: #45a049; } ```
-This example provides a clean and modern design for a form. Feel free to customize elements such as colors, borders, and fonts to fit your desired style. Let me know if there's anything else I can assist you with!
+Certainly! Here's an example of an HTML form code with CSS design included within the same file using the <style> tag:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Form with CSS Design</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      background-color: #4caf50;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>HTML Form with CSS Design</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+In this code, the CSS styles are enclosed within the <style> tag in the <head> section of the HTML file. You can further customize the styles within the <style> tag as per your requirements. Let me know if there's anything else I can assist you with!
